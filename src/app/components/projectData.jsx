@@ -1,11 +1,11 @@
 export const projectsData = [
   {
-    image: "./vdos/IMG_0443.MP4",
+    image: "./vdos/IMG_0443.mp4",
     tag: ["All", "Three Bakery"],
     subItems: ["Funny Content"],
   },
   {
-    image: "./vdos/IMG_2292.MP4",
+    image: "./vdos/IMG_2292.mp4",
     tag: ["All", "Three Bakery"],
     subItems: ["Video Content"]
   },
