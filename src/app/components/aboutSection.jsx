@@ -219,13 +219,13 @@ const AboutSection = () => {
 
                 <div className="certifications-container">
 
-                    <ul ref={ref} className="certifications grid grid-cols-1 md:grid-cols-3 gap-14 py-8 xl:gap-8">
-                        {Certification.map((item, index) => (
-                            <li key={`certification-item-${index}`} className='flex md:grid-cols-2 gap-14 py-8 xl:gap-8'>
-                                {item}
-                            </li>
-                        ))}
-                    </ul>
+                <ul className="certifications grid grid-cols-1 md:grid-cols-3 gap-14 py-8 xl:gap-8">
+    {Certification.map((item, index) => (
+      <li key={`certification-item-${index}`} className='flex md:grid-cols-2 gap-14 py-8 xl:gap-8'>
+        {item}
+      </li>
+    ))}
+  </ul>
 
                 </div>
 
