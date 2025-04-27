@@ -4,8 +4,8 @@ import { useInView } from "framer-motion";
 import Image from "next/image";
 
 const TAB_CONTENTHIGHIGHT = {
-  vdo1: "vdos/IMG_0443.mp4",
-  vdo2: "vdos/IMG_2292.mp4",
+  vdo1: "vdos/IMG_0443.MP4",
+  vdo2: "vdos/IMG_2292.MP4",
   vdo4: "vdos/IMG_3364.mp4",
   vdo5: "vdos/IMG_7042.mp4",
 };
@@ -266,6 +266,7 @@ const AboutSection = () => {
             >
               Skills
             </TabButton>
+
           </div>
           <div
             className={`grid md:grid-cols-1 mt-2 ${
