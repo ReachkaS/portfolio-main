@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef, ref } from 'react';
+import React, { useState, useRef } from 'react';
 import { useInView } from "framer-motion";
 import Image from 'next/image';
 
@@ -202,7 +202,7 @@ const AboutSection = () => {
                     <p className='text-base lg:text-lg text-[#2f4156] text-justify'>
                     Hi, I’m Vichea, a passionate Content Creator Specialist and newly Digital Marketing  with a creative edge and a results-driven mindset. I specialize in crafting compelling content strategies, managing brand storytelling across multiple platforms, and driving meaningful engagement that converts.
 
-                    With a strong foundation in SEO, social media marketing, email campaigns, and data analytics, I blend creativity with strategy to elevate brand presence and connect with audiences in impactful ways. Whether it's developing content calendars, producing eye-catching visuals, or optimizing ad performance, I bring ideas to life and deliver measurable growth.                        </p>
+                    With a strong foundation in SEO, social media marketing, email campaigns, and data analytics, I blend creativity with strategy to elevate brand presence and connect with audiences in impactful ways. Whether It&apos;s developing content calendars, producing eye-catching visuals, or optimizing ad performance, I bring ideas to life and deliver measurable growth.                        </p>
                     <div className="flex flex-row mt-8">
                         <TabButton selectTab={() => handleTabChange("work experience")} active={tab === "work experience"}>Work</TabButton>
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>Education</TabButton>
