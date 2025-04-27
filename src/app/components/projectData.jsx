@@ -413,49 +413,49 @@ export const projectsData = [
     vdo: null
 },
 {
-  img: "/images/IMG_0076.JPG",
+  img: "/images/IMG_0076.jpg",
   tag: ["All", "Poster", "Three Bakery"],
   subItems: ["Three Bakery", "Poster"],
   vdo: null
 },
 {
-  img: "/images/IMG_0088.JPG",
+  img: "/images/IMG_0088.jpg",
   tag: ["All", "Poster", "Three Bakery"],
   subItems: ["Three Bakery", "Poster"],
   vdo: null
 },
 {
-  img: "/images/IMG_0545.JPG",
+  img: "/images/IMG_0545.jpg",
   tag: ["All", "Poster", "Three Bakery"],
   subItems: ["Three Bakery", "Poster"],
   vdo: null
 },
 {
-  img: "/images/IMG_2405.JPG",
+  img: "/images/IMG_2405.jpg",
   tag: ["All", "Poster", "Three Bakery"],
   subItems: ["Three Bakery", "Poster"],
   vdo: null
 },
 {
-  img: "/images/IMG_2996.JPG",
+  img: "/images/IMG_2996.jpg",
   tag: ["All", "Poster", "Three Bakery"],
   subItems: ["Three Bakery", "Poster"],
   vdo: null
 },
 {
-  img: "/images/IMG_2997.JPG",
+  img: "/images/IMG_2997.jpg",
   tag: ["All", "Poster", "Three bakery"],
   subItems: ["Three bakery", "Poster"],
   vdo: null
 },
 {
-  img: "/images/IMG_2998.JPG",
+  img: "/images/IMG_2998.jpg",
   tag: ["All", "Poster", "Three bakery"],
   subItems: ["Three bakery", "Poster"],
   vdo: null
 },
 {
-  img: "/images/IMG_2999.JPG",
+  img: "/images/IMG_2999.jpg",
   tag: ["All", "Poster", "Three bakery"],
   subItems: ["Three bakery", "Poster"],
   vdo: null
