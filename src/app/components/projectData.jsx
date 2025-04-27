@@ -1,3 +1,4 @@
+import Image from "next/image";
 export const projectsData = [
   {
     vdo: "./vdos/IMG_0443.MP4",
@@ -468,3 +469,156 @@ export const projectsData = [
 
 
 ];
+
+export const TAB_CONTENTHIGHIGHT = {
+  vdo1: "vdos/IMG_0443.MP4",
+  vdo2: "vdos/IMG_2292.MP4",
+  vdo3: "vdos/IMG_3364.mp4",
+  vdo4: "vdos/IMG_7042.mp4",
+};
+
+export const TAB_DATA = [
+  {
+    title: "Work Experience",
+    id: "work experience",
+    content: (
+      <ul className="education-list">
+        <li className="education-item">
+          <div className="degree">
+            Jin Fu Mao : ASA Coffee&Bakery and ASA 430 2nd Branch/ JUMBO Seafood
+            Cambodia and FlaminGo hotpot
+          </div>
+          <div className="date">01 July 2024 - Present</div>
+          <div className="institution">Work as Content Creator</div>
+          <div className="institution">Assisting in Digital Marketing</div>
+          <div className="institution">
+            - Managing of all Pages of the company
+          </div>
+          <div className="institution">- Marketing Planing</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Three Bakery & Three Pastry</div>
+          <div className="date">01 December 2023 - 25 June 2024</div>
+          <div className="institution">Work as Content Creator</div>
+          <div className="institution">- Create Content</div>
+          <div className="institution">- Editing Video</div>
+          <div className="institution">- Admin Page</div>
+          <div className="institution">- Edit Pictures (Meitu app)</div>
+          <div className="institution">- Shooting</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Finn Furniture</div>
+          <div className="date">15 August 2023 - 15 November 2023</div>
+          <div className="institution">
+            Work Full Staff as Interior Design and Architecture
+          </div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Kolabot.kh/ Mean chhey</div>
+          <div className="date">01 March 2022 - 30 May 2022</div>
+          <div className="institution">
+            Internship as an Architect and Interior Design
+          </div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Thmor Architecture</div>
+          <div className="date">8 August 2021 - 8 November 2021</div>
+          <div className="institution">
+            Internship as an Architect and Interior DesignKhmer
+          </div>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Skills",
+    id: "skills",
+    content: (
+      <ul className="education-list">
+        <li className="education-item">
+          <div className="degree">Teamwork</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Creative</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Marketing</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Hard Working</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Critical Thinking</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Flexible</div>
+        </li>
+      </ul>
+    ),
+   
+  },
+  {
+    title: "Education",
+    id: "education",
+    content: (
+      <ul className="education-list">
+        <li className="education-item">
+          <div className="degree">3 Months Course in Degital Marketing</div>
+          <div className="institution">Internation Youth Fellowship - IYF</div>
+          <div className="date">Completed 2025</div>
+        </li>
+        <li className="education-item">
+          <div className="degree">Bechelor of Architextire and Urbanism</div>
+          <div className="institution">Royal University of Fine Arts</div>
+          <div className="date">2018 - 2023</div>
+        </li>
+        <li className="education-item">
+          <div className="institution">University of Cambodia</div>
+          <div className="date">2018</div>
+        </li>
+        <li className="education-item">
+          <div className="institution">
+            Hun Sen Borey 100 knorng High School
+          </div>
+          <div className="date">2015 - 2018</div>
+        </li>
+      </ul>
+    ),
+    
+  },
+];
+
+export const Certification = [
+  <Image
+    key="certifications-image1"
+    src="/images/IMG_0543.png"
+    alt="Certification image 1"
+    width={200}
+    height={300}
+  />,
+  <Image
+    key="certifications-image2"
+    src="/images/IMG_1403.png"
+    alt="Certification image 2"
+    width={200}
+    height={300}
+  />,
+  <Image
+    key="certifications-image3"
+    src="/images/IMG_1443.png"
+    alt="Certification image 2"
+    width={200}
+    height={300}
+  />,
+  <Image
+    key="certifications-image4"
+    src="/images/IMG_3755.JPG"
+    alt="Certification image 2"
+    width={200}
+    height={300}
+  />,
+   
+];
+
+export const jfmSubItems = ["ASA", "Flamingo", "Jumbo Seafood"];
+export const allSubItems = ["Video Content", "Funny Content", "Poster"];

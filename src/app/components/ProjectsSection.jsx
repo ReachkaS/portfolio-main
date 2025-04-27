@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import ProjectTags from "./ProjectTags";
 import Image from "next/image";
-import { projectsData } from "./projectData";
+import { projectsData,allSubItems,jfmSubItems } from "./projectData";
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
@@ -16,9 +16,6 @@ const ProjectsSection = () => {
   const handleSubItemClick = (subItem) => {
     setSelectedSubItem(subItem);
   };
-
-  const jfmSubItems = ["ASA", "Flamingo", "Jumbo Seafood"];
-  const allSubItems = ["Video Content", "Funny Content", "Poster"];
 
   const filteredProjects = projectsData.filter((project) => {
     if (tag === "All" && selectedSubItem) {
