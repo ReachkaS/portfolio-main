@@ -23,7 +23,7 @@ function heroSection() {
                 </h1>
             </div>
             <div className="col-span-12  place-self-center text-center sm:text-left relative">
-                <Image src="/images/torzProfile.png" alt="about image" width={500} height={500} className='drop-shadow-xl'/>
+                <Image src="/images/torzProfile.png" alt="about image" priority  width={500} height={500} className='drop-shadow-xl'/>
             </div>                
             
         </div>

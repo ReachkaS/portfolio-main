@@ -4,10 +4,10 @@ import { useInView } from "framer-motion";
 import Image from "next/image";
 
 const TAB_CONTENTHIGHIGHT = {
-  vdo1: "vdos/IMG_0443.mp4",
-  vdo2: "vdos/IMG_2292.mp4",
-  vdo4: "vdos/IMG_3364.mp4",
-  vdo5: "vdos/IMG_7042.mp4",
+  vdo1: "vdos/IMG_0443.MP4",
+  vdo2: "vdos/IMG_2292.MP4",
+  vdo3: "vdos/IMG_3364.mp4",
+  vdo4: "vdos/IMG_7042.mp4",
 };
 const TAB_DATA = [
   {
@@ -173,7 +173,10 @@ const Certification = [
     width={200}
     height={300}
   />,
+   
+  
 ];
+
 const Section = ({ children }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -215,6 +218,7 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center px-4 py-8 xl:gap-16 sm:py-16">
         <Section className="flex flex-col items-center">
+        <h2 className="text-2xl font-bold mb-4 text-center text-[#2f4156]">Preview</h2>
           <div className="flex flex-wrap justify-center gap-4">
             {Object.values(TAB_CONTENTHIGHIGHT).map((videoSrc, index) => (
               <video
