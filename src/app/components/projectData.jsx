@@ -568,7 +568,7 @@ export const TAB_DATA = [
           <div className="date">Completed 2025</div>
         </li>
         <li className="education-item">
-          <div className="degree">Bechelor of Architextire and Urbanism</div>
+          <div className="degree">Bechelor of Architecture and Urbanism</div>
           <div className="institution">Royal University of Fine Arts</div>
           <div className="date">2018 - 2023</div>
         </li>
